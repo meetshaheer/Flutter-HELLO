@@ -5,6 +5,25 @@ class practice extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Hello Flutter Practicing"),
+      ),
+      body: Container(
+        width: 200,
+        color: Colors.black,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.amber,
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
