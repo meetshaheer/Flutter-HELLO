@@ -7,20 +7,107 @@ class practice extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hello Flutter Practicing"),
+        title: Text("Box Hello DM DM "),
       ),
       body: Container(
-        width: 200,
-        color: Colors.black,
         child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
-              height: 100,
-              width: 100,
-              color: Colors.amber,
-            )
+            Row(
+              children: [
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[50],
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.white,
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[400],
+                ),
+              ],
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[100],
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.white,
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[300],
+                ),
+              ],
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[200],
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[300],
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[200],
+                ),
+              ],
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[300],
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.white,
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[100],
+                ),
+              ],
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[400],
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.white,
+                ),
+                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.amber[50],
+                ),
+              ],
+            ),
           ],
         ),
       ),
